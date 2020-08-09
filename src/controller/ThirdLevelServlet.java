@@ -15,6 +15,7 @@ import utility.StringAdvanceMethod;
 @WebServlet(urlPatterns = { "/thirdlevel" })
 public class ThirdLevelServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
+	
 	StringAdvanceMethod stringadvance = new StringAdvanceMethod();
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
